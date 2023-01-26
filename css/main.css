@@ -485,34 +485,6 @@ body {
 	justify-content: flex-end;
 }
 
-/* Customers */
-
-/*.customers {*/
-/*	padding: 100px 0 133px;*/
-/*}*/
-
-/*.customers__row {*/
-/*	display: flex;*/
-/*	column-gap: 68px;*/
-/*}*/
-
-/*.customers__img {*/
-/*	max-width: 478px;*/
-/*}*/
-
-/*.customers__img img {*/
-/*	border-radius: 60px;*/
-/*}*/
-
-/*.customers__content {*/
-/*}*/
-
-/*.customers__title {*/
-/*	margin-bottom: 35px;*/
-/*	font-size: 45px;*/
-/*	font-weight: 500;*/
-/*}*/
-
 /* Menu Icon */
 
 .menu-icon-wrapper {
@@ -907,14 +879,9 @@ body {
 		font-size: 20px;
 	}
 
-	.nav__list {
-		/*display: none;*/
-	}
-
 	.nav__list--header {
 		display: none;
 	}
-
 }
 
 @media (max-width: 850px) {
@@ -936,11 +903,6 @@ body {
 		flex-direction: column;
 	}
 
-	/*.header__img img {
-		position: static;
-		width: 70%;
-		height: auto;
-	}*/
 	.header__logo__picture {
 		height: 100px;
 		width: 100px;
@@ -1024,7 +986,6 @@ body {
 		align-items: center;
 	}
 
-
 	/* Offers */
 	.offers__content {
 		margin: 0 auto;
@@ -1083,53 +1044,6 @@ body {
 		font-size: 15px;
 		font-weight: 700;
 		border-radius: 100px;
-	}
-
-	/* Customer */
-	.customers {
-		padding: 50px 0 60px;
-	}
-
-	.customers__row {
-		column-gap: 30px;
-	}
-
-	.customers__title {
-		margin-bottom: 25px;
-		font-size: 35px;
-	}
-
-	.review__client {
-		column-gap: 30px;
-		margin-bottom: 20px;
-	}
-
-	.review__client-avatar {
-		width: 80px;
-		height: 80px;
-	}
-
-	.review__client-desc-name {
-		margin-bottom: 5px;
-		font-size: 23px;
-	}
-
-	.review__client-desc-country {
-		font-size: 18px;
-	}
-
-	.review__text {
-		margin-bottom: 20px;
-		font-size: 18px;
-	}
-
-	.review__rating {
-		max-width: 200px;
-	}
-
-	.customers__img img {
-		max-width: 250px;
-		border-radius: 40px;
 	}
 
 	/* Form */
@@ -1393,24 +1307,6 @@ body {
 }
 
 @media (max-width: 460px) {
-	.customers__img img {
-		max-width: 100%;
-	}
-
-	.subscribe-form {
-		padding: 10px;
-		flex-direction: column;
-		row-gap: 10px;
-	}
-
-	.subscribe-form__input {
-		padding: 15px 0;
-		text-align: center;
-		background-color: #f0f0f0;
-		border-radius: 20px;
-		font-size: 18px;
-	}
-
 	.nav__list--footer {
 		flex-direction: column;
 		row-gap: 15px;
@@ -1574,6 +1470,4 @@ body {
 	/* Footer */
 	.nav__list--footer li {
 	}
-
 }
-
