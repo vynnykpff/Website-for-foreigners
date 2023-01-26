@@ -1,0 +1,78 @@
+/* Footer */
+
+.footer {
+	flex: 0 0 auto;
+	padding: 25px 0;
+	background: #595959;
+}
+
+.footer a {
+	color: #fff;
+	/*color: var(--secondary);*/
+}
+
+.footer__logo__image {
+	width: 85px;
+}
+
+.footer__logo {
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	border-radius: 30px;
+	padding: 0 12px 0 12px;
+	position: relative;
+	top: -10px;
+}
+
+.nav__logo {
+	background: #fff;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	border-radius: 30px;
+	padding: 0 12px 0 12px;
+}
+
+.nav-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 80px;
+}
+
+.rights {
+	text-align: center;
+	background: #303030;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 0 10px 0;
+}
+
+.massagers {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.massagers li {
+	margin-right: 20px;
+}
+
+.massagers li:last-child {
+	margin-right: 0;
+}
+
+.massagers li a img {
+	width: 40px;
+	transition: all ease 0.2s;
+}
+
+.massagers li a img:hover {
+	transform: scale(1.2);
+	transition: all ease 0.3s;
+}
+
+.check {
+	display: flex;
+	position: relative;
+	right: 30px;
+}
+

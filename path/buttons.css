@@ -1,0 +1,44 @@
+/* Buttons */
+
+.btn {
+	display: inline-block;
+	padding: 25px 45px;
+	color: #fff !important;
+
+	background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%);
+	border-radius: 27px;
+
+	font-size: 20px;
+	font-weight: 600;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.btn:hover {
+	color: rgb(245, 233, 127) !important;
+	transition: color 0.2s ease-in;
+}
+
+.btn:active {
+	position: relative;
+	top: 1px;
+}
+
+.btn--login {
+	padding: 13px 44px;
+	font-size: 18px;
+	font-weight: 700;
+	border-radius: 100px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.btn--header {
+	margin-top: 10px;
+	padding: 27px 48px;
+	font-size: 25px;
+}
+
+.btn--subscribe {
+	padding: 36px 86px;
+	font-size: 25px;
+	border-radius: 35px;
+}
