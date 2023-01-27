@@ -442,6 +442,10 @@ body {
 		margin: 0 20px;
 	}
 
+	.container-logo {
+		margin: 0 0 0 12px;
+	}
+
 	/* Nav */
 	.nav__list--header {
 		display: none;
@@ -902,11 +906,6 @@ body {
 	.about__element__text {
 		font-size: 15px;
 	}
-
-	.about__element__contact {
-		font-size: 15px;
-	}
-
 	/* Text */
 	.subtitle {
 		margin: 20px 0;

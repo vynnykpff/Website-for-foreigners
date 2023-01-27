@@ -1177,6 +1177,10 @@ body {
 		top: -30px;
 	}
 
+	.btn--header:active {
+		top: -29px;
+	}
+
 }
 
 @media (max-width: 600px) {
@@ -1256,6 +1260,10 @@ body {
 		position: relative;
 		top: -40px;
 		left: 0;
+	}
+
+	.btn--header:active {
+		top: -39px;
 	}
 
 	/* About */

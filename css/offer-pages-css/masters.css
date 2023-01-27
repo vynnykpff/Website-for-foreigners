@@ -337,6 +337,10 @@ body {
 		margin: 0 20px;
 	}
 
+	.container-logo {
+		margin: 0 0 0 12px;
+	}
+
 	/* Nav */
 	.nav__list--header {
 		display: none;
@@ -700,10 +704,6 @@ body {
 	.faculties-mobile {
 		display: block;
 	}
-
-
-
-
 }
 
 @media (max-width: 480px) {
@@ -761,10 +761,6 @@ body {
 @media (max-width: 390px) {
 	/* About */
 	.about__element__text {
-		font-size: 15px;
-	}
-
-	.about__element__contact {
 		font-size: 15px;
 	}
 
